@@ -1,0 +1,62 @@
+
+#container{
+    border-radius: 10px;
+}
+
+#display{
+    background-color: black;
+    border-radius: 10px;
+    width: 320px;
+    height: 80px;
+}
+
+#displayValue{
+    text-align: right;
+    float: right;
+    padding-right: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+.operator{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #7e7e7e;
+    width: 78px;
+    height: 80px;
+    border: 1px solid #a9a9a9;
+    font-size: 30px;
+    line-height: 80px;
+}
+
+.pad{
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    background-color: #FFFFFF;
+    width: 78px;
+    height: 80px;
+}
+
+#number{
+    background-color: #FFFFFF;
+    border: 1px solid #a9a9a9;
+    width: 78px;
+    height: 80px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    line-height:80px;
+     border-radius: 10px;
+}
+
+#equal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fa8664;
+    vertical-align: middle;
+    width: 78px;
+    grid-column: 4;
+    grid-row: 1/span 4;
+    font-size: 30px;
+}
